@@ -1,0 +1,35 @@
+{
+    "name": "jaskaran_portfolio",
+    "short_name": "jaskaran_portfolio",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "icons/Icon-192.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "icons/Icon-192.jpg",
+            "sizes": "192x192",
+            "type": "image/jpeg",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-192.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg",
+            "purpose": "maskable"
+        }
+    ]
+}
