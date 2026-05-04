@@ -16436,7 +16436,7 @@ r.toString
 A.fI(r)
 q=a.j(0,"swipeEdge")
 q.toString
-return new A.ks(s,r,B.BH[A.fH(q)])},
+return new A.ks(s,r,B.BI[A.fH(q)])},
 w1:function w1(a,b){this.a=a
 this.b=b},
 ks:function ks(a,b,c){this.a=a
@@ -22447,7 +22447,7 @@ Bk(){var s=this.Q
 s===$&&A.a()
 return s},
 pB(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.C5
+if(a<0||b<0)return B.C6
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -22466,7 +22466,7 @@ l.push(new A.fz(n[0],n[1],n[2],n[3],B.hx[m]))}return l},
 d2(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.BJ[J.a2(s.affinity.value)]
+r=B.BK[J.a2(s.affinity.value)]
 return new A.ap(J.a2(s.pos),r)},
 Bn(a){var s=this.a
 s===$&&A.a()
@@ -22777,7 +22777,7 @@ A.lr.prototype={
 E(){return"CanvasKitVariant."+this.b}}
 A.T8.prototype={
 gkm(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.ap9(B.BQ,r==null?"auto":r)},
+return A.ap9(B.BR,r==null?"auto":r)},
 gJ_(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -27104,7 +27104,7 @@ UJ(){var s=this,r=s.r
 if(r==null){r=s.r=new A.Ah(s.c)
 r.d=new A.SP(s)}return r},
 AF(a){var s,r,q,p,o,n,m=this
-if(B.b.t(B.Cy,a.type)){s=m.UJ()
+if(B.b.t(B.Cz,a.type)){s=m.UJ()
 s.toString
 r=m.c.$0()
 q=r.b
@@ -27117,7 +27117,7 @@ if(m.f!==B.km){m.f=B.km
 m.FM()}}return m.d.a.O7(a)},
 FM(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-O4(a){if(B.b.t(B.BV,a))return this.f===B.ea
+O4(a){if(B.b.t(B.BW,a))return this.f===B.ea
 return!1}}
 A.SQ.prototype={
 $0(){return new A.hx(Date.now(),0,!1)},
@@ -32878,7 +32878,7 @@ if(o>0)return s
 return null}}
 A.a53.prototype={
 D(a,b){this.DZ(0,b,0,b.length,!1)},
-ba(a){this.DZ(0,B.C0,0,0,!0)}}
+ba(a){this.DZ(0,B.C1,0,0,!0)}}
 A.a9Y.prototype={
 DZ(a,b,c,d,e){var s=this.b.a2E(b,c,d,e)
 if(s!=null)this.a.kh(s,0,s.length,e)}}
@@ -38868,7 +38868,7 @@ n=o.e
 o=o.cx
 r=q.gXh()
 q.a.toString
-return new A.wC(p,p,p,new A.a7C(),p,p,p,p,p,n,B.Ej,p,p,p,B.C7,q.gXo(),o,p,B.KD,s,p,r,p,p,B.kF,!1,!1,p,p,p,new A.lX(q,t.bT))},
+return new A.wC(p,p,p,new A.a7C(),p,p,p,p,p,n,B.Ej,p,p,p,B.C8,q.gXo(),o,p,B.KD,s,p,r,p,p,B.kF,!1,!1,p,p,p,new A.lX(q,t.bT))},
 P(a){var s,r=null,q=A.Cp(!1,!1,this.SG(a),r,r,r,r,!0,r,r,r,new A.a7D(),r,r)
 this.a.toString
 s=this.d
@@ -38972,7 +38972,7 @@ A.pG.prototype={
 E(){return"_CornerId."+this.b}}
 A.jk.prototype={}
 A.ov.prototype={
-ia(){var s,r,q,p=this,o=A.avp(B.BT,new A.Y6(p,p.b.gaM().a2(0,p.a.gaM()))),n=p.a
+ia(){var s,r,q,p=this,o=A.avp(B.BU,new A.Y6(p,p.b.gaM().a2(0,p.a.gaM()))),n=p.a
 n.toString
 s=o.a
 r=p.lz(n,s)
@@ -41422,7 +41422,7 @@ gfj(){return A.axq()},
 y0(a,b,c,d,e,f){return A.aoo(a,b,c,d,e,f)}}
 A.E2.prototype={
 Sp(a){var s=t.Tr
-s=A.a1(new A.am(B.BS,new A.Zh(a),s),s.h("aE.E"))
+s=A.a1(new A.am(B.BT,new A.Zh(a),s),s.h("aE.E"))
 return s},
 i(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -44896,7 +44896,7 @@ Nd(a){var s=this.b,r=s.a.c.Bn(a.a2(0,s.gf_()))
 if(r==null||s.gf_().i(0,B.i))return r
 return new A.lY(r.a.dN(s.gf_()),r.b,r.c)},
 rt(){var s,r,q=this.b,p=q.gf_()
-if(!isFinite(p.a)||!isFinite(p.b))return B.C6
+if(!isFinite(p.a)||!isFinite(p.b))return B.C7
 s=q.f
 if(s==null){s=q.a.c.rt()
 q.f=s}if(p.i(0,B.i))r=s
@@ -52195,7 +52195,7 @@ break
 case 1:return A.T(q,r)}})
 return A.U($async$wq,r)},
 Uz(a,b){var s,r,q,p
-if(a===b)return B.C4
+if(a===b)return B.C5
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.kN(B.cW,a)
@@ -53372,7 +53372,7 @@ A.kt.prototype={}
 A.Er.prototype={
 iw(a,b,c){var s,r,q,p,o,n=$.ae.al$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.q,r=0;r<2;++r){q=B.BW[r]
+for(s=t.q,r=0;r<2;++r){q=B.BX[r]
 p=n.e
 p.toString
 o=A.abY(p,q,s)
@@ -56566,7 +56566,7 @@ i(a,b){var s=this
 if(b==null)return!1
 if(J.N(b)!==A.v(s))return!1
 return b instanceof A.cL&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.dd(null,null)},
-gu(a){return A.K(this.a,this.b,null,this.d,A.bP(B.C1),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.K(this.a,this.b,null,this.d,A.bP(B.C2),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.pe(B.f.jP(this.a,16).toUpperCase(),5,"0")+")"}}
 A.tC.prototype={
 bN(a){return!this.w.i(0,a.w)}}
@@ -57490,7 +57490,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.hX
 r=r&&e
-g=new A.ug(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.rO(e),B.C2,r===!0)
+g=new A.ug(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.rO(e),B.C3,r===!0)
 if(!g.i(0,f.e))f.aQ(new A.a7U(f,g))},
 rL(){if(this.d==null)this.lU()},
 JB(){this.lU()},
@@ -57791,7 +57791,7 @@ r.L(0,s.My(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.C8[p]
+for(;!1;++p){o=B.C9[p]
 n=l.c
 n.toString
 m=new A.fc(o.yq(n),null,!0,B.iN,B.aV,new A.nj(new ($.Pu())(B.aV)),B.aV)
@@ -58144,7 +58144,7 @@ P(a){var s,r,q=this,p=null,o=q.gW9(),n=A.o8(a),m=q.bj$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gbt()==null){r=q.gDc()
-r=J.ol(r.slice(0),A.a4(r).c)}else r=B.C9
+r=J.ol(r.slice(0),A.a4(r).c)}else r=B.Ca
 return new A.m_(p,new A.cM(new A.YY(q,a),A.u2(B.bf,new A.Ad(!1,A.act(A.Cp(!0,p,A.a46(m,new A.uI(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.gXI(),p,p,o),p,t.w3),p)}}
 A.YX.prototype={
 $1(a){var s=this.a.c
@@ -63053,7 +63053,7 @@ r.qY()
 return s.aF()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gws(),p=0;p<s.length;s.length===r||(0,A.z)(s),++p)s[p].J(0,q)
-o.b=B.C3
+o.b=B.C4
 o.y=!1
 o.dr()},
 cf(a,b){return a.jm(b)},
@@ -64753,19 +64753,19 @@ n=A
 m=J
 l=B.S
 s=2
-return A.Y($.A7().hM(0,"assets/pdf/Jaskaran_Sharma_Flutter_dev_CV.pdf"),$async$tY)
+return A.Y($.A7().hM(0,"assets/pdf/Jaskaran_CV.pdf"),$async$tY)
 case 2:p=o.createObjectURL(n.anK([m.nu(l.gbm(b))]))
 p.toString
 q=document.createElement("a")
 q.href=p
-q.setAttribute("download","Jaskaran_Sharma_Flutter_dev_CV.pdf")
+q.setAttribute("download","Jaskaran_CV.pdf")
 q.click();(self.URL||self.webkitURL).revokeObjectURL(p)
 return A.T(null,r)}})
 return A.U($async$tY,r)},
 P(a){var s=null
 return A.zS("Contact",A.jN(A.c([A.hc("TimberPur, Fatehgarh Sahib, Punjab, India",A.kN(s,s,B.w,s,s,s,s,s,s,s,s,14,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s)),A.hc("Email: sharmajaskaran668@gmail.com",A.kN(s,s,B.w,s,s,s,s,s,s,s,s,14,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s)),A.hc("Phone: +91 99146 48909",A.kN(s,s,B.w,s,s,s,s,s,s,s,s,14,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s)),B.vi,new A.C3(this.ga5X(),s,s,s,s,s,s,!1,s,!0,s,A.hc("Open / Download CV",s),s)],t.E),B.aa,4))}}
 A.Ce.prototype={
-P(a){return A.zS("Experience",A.jN(B.Cp,B.aa,16))}}
+P(a){return A.zS("Experience",A.jN(B.Cq,B.aa,16))}}
 A.CH.prototype={
 P(a){var s=null,r=t.E
 if(A.cu(a,s,t.w).w.a.a<768){r=A.c([this.gM2()],r)
@@ -64778,7 +64778,7 @@ return A.Bk(s,new A.eS(s,B.wI,s,A.jH(16),s,s,B.aS),240,s,s,200)}}
 A.Ef.prototype={
 P(a){return new A.u9(B.Gb,"Jaskaran Sharma | Senior Flutter Developer",A.ads(B.a8,null,!0),!1,null)}}
 A.Eh.prototype={
-P(a){return A.ahC(B.jG,A.Gq(B.dA,B.Cv,B.f3))}}
+P(a){return A.ahC(B.jG,A.Gq(B.dA,B.Cw,B.f3))}}
 A.qP.prototype={
 aq(){return new A.Hz(null,null)}}
 A.Hz.prototype={
@@ -64818,7 +64818,7 @@ q=j<700
 s=this.b
 p=0
 for(;;){if(!(p<(q?35:70)))break
-o=B.Cl[r.a5K(21)]
+o=B.Cm[r.a5K(21)]
 n=B.ev.Bj(0.1)
 m=q?11:13
 n=A.GM(k,k,new A.l(!0,n,k,"monospace",k,k,m,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k),o)
@@ -64828,7 +64828,7 @@ l.aD(a,new A.o(r.LE()*j,i*B.c.b6(s+r.LE(),1)));++p}},
 iR(a){return!0}}
 A.Eg.prototype={
 P(a){var s=null,r=A.cu(a,s,t.w).w.a.a<768?16:32
-return new A.G5(A.AP(new A.jP(B.wy,new A.kk(new A.bx(r,0,r,0),A.jN(B.Cw,B.aa,0),s),s),s,s),s)}}
+return new A.G5(A.AP(new A.jP(B.wy,new A.kk(new A.bx(r,0,r,0),A.jN(B.Cx,B.aa,0),s),s),s,s),s)}}
 A.Oa.prototype={
 l(){var s=this,r=s.eu$
 if(r!=null)r.J(0,s.go7())
@@ -64854,7 +64854,7 @@ $S:407}
 A.GA.prototype={
 P(a){return A.zS("Summary",B.Nl)}}
 A.GV.prototype={
-P(a){return A.zS("Tools",A.ail(B.BY,10,10))}}
+P(a){return A.zS("Tools",A.ail(B.BZ,10,10))}}
 A.td.prototype={
 P(a){var s=this,r=null,q=A.jH(16),p=A.Qh(B.cM)
 return A.Bk(A.jN(A.c([A.hc(s.c,B.vz),A.hc(s.d+" \xb7 "+s.e,B.L_),B.vi,A.hc(s.f,B.J7)],t.E),B.aa,0),new A.eS(B.jF,r,p,q,r,r,B.aS),r,r,B.kb,r)}}
@@ -68284,7 +68284,7 @@ B.xC=new A.a49()
 B.R=new A.a4c()
 B.bs=new A.a4e()
 B.cm=new A.Hf(0,0,0,0)
-B.C2=s([],A.ah("y<ayl>"))
+B.C3=s([],A.ah("y<ayl>"))
 B.PD=new A.a4j()
 B.ay={}
 B.pG=new A.bB(B.ay,[],t.li)
@@ -68676,14 +68676,14 @@ B.K2=new A.l(!0,B.w,null,null,null,null,14,null,null,null,null,null,1.5,null,nul
 B.Nh=new A.i3("Building high-performance mobile and web applications using Flutter, Firebase, and real-time systems. Focused on clean architecture, scalability, and delivering reliable, production-ready solutions.",null,B.K2,null,null)
 B.kD=s([B.Nj,B.vj,B.Nm,B.iy,B.Nh],t.E)
 B.B7=s([4,9,14,19],t.t)
-B.Cn=s([137,80,78,71,13,10,26,10],t.Z)
+B.Co=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ab=new A.k2(0,"png")
 B.Aj=new A.hE(B.Ab,!1,0,"png")
-B.A9=new A.iJ(B.Cn,B.Aj,0,"png")
-B.Co=s([71,73,70,56,55,97],t.Z)
-B.A8=new A.iJ(B.Co,B.ee,1,"gif87a")
-B.BR=s([71,73,70,56,57,97],t.Z)
-B.A7=new A.iJ(B.BR,B.ee,2,"gif89a")
+B.A9=new A.iJ(B.Co,B.Aj,0,"png")
+B.Cp=s([71,73,70,56,55,97],t.Z)
+B.A8=new A.iJ(B.Cp,B.ee,1,"gif87a")
+B.BS=s([71,73,70,56,57,97],t.Z)
+B.A7=new A.iJ(B.BS,B.ee,2,"gif89a")
 B.AM=s([255,216,255],t.Z)
 B.Ac=new A.k2(2,"jpeg")
 B.An=new A.hE(B.Ac,!1,3,"jpeg")
@@ -68708,27 +68708,27 @@ B.f5=new A.jc(5,"end")
 B.Bs=s([B.bO,B.ck,B.f4,B.dn,B.aI,B.f5],A.ah("y<jc>"))
 B.Bu=s([B.fq,B.fr],A.ah("y<qZ>"))
 B.zT=new A.cL(58016,"MaterialIcons",!1)
-B.Cm=s(["Flutter",B.zT],t.G)
+B.Cn=s(["Flutter",B.zT],t.G)
 B.ko=new A.cL(57718,"MaterialIcons",!1)
-B.BG=s(["Dart",B.ko],t.G)
+B.BH=s(["Dart",B.ko],t.G)
 B.zW=new A.cL(58258,"MaterialIcons",!1)
-B.Cs=s(["Firebase",B.zW],t.G)
+B.Ct=s(["Firebase",B.zW],t.G)
 B.zR=new A.cL(57720,"MaterialIcons",!1)
-B.BF=s(["Java",B.zR],t.G)
+B.BG=s(["Java",B.zR],t.G)
 B.zV=new A.cL(58221,"MaterialIcons",!1)
-B.Ce=s(["Spring MVC",B.zV],t.G)
+B.Cf=s(["Spring MVC",B.zV],t.G)
 B.zU=new A.cL(58157,"MaterialIcons",!1)
-B.BX=s(["REST APIs",B.zU],t.G)
+B.BY=s(["REST APIs",B.zU],t.G)
 B.zZ=new A.cL(58928,"MaterialIcons",!1)
-B.Ci=s(["WebSockets",B.zZ],t.G)
+B.Cj=s(["WebSockets",B.zZ],t.G)
 B.zX=new A.cL(58312,"MaterialIcons",!1)
-B.Cz=s(["Google Maps",B.zX],t.G)
+B.CA=s(["Google Maps",B.zX],t.G)
 B.kp=new A.cL(58335,"MaterialIcons",!1)
-B.Cd=s(["Git",B.kp],t.G)
-B.Cx=s(["GitLab",B.kp],t.G)
+B.Ce=s(["Git",B.kp],t.G)
+B.Cy=s(["GitLab",B.kp],t.G)
 B.A_=new A.cL(61747,"MaterialIcons",!1)
-B.BI=s(["CI/CD",B.A_],t.G)
-B.Bv=s([B.Cm,B.BG,B.Cs,B.BF,B.Ce,B.BX,B.Ci,B.Cz,B.Cd,B.Cx,B.BI],A.ah("y<E<A>>"))
+B.BJ=s(["CI/CD",B.A_],t.G)
+B.Bv=s([B.Cn,B.BH,B.Ct,B.BG,B.Cf,B.BY,B.Cj,B.CA,B.Ce,B.Cy,B.BJ],A.ah("y<E<A>>"))
 B.CE=new A.ma("en",null,"US")
 B.kF=s([B.CE],t.ss)
 B.OH=new A.jl(0,0)
@@ -68738,22 +68738,22 @@ B.OL=new A.jl(6,0.11)
 B.OJ=new A.jl(8,0.12)
 B.OI=new A.jl(12,0.14)
 B.kG=s([B.OH,B.OM,B.OK,B.OL,B.OJ,B.OI],A.ah("y<jl>"))
-B.BE=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.BF=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.vm=new A.w1(0,"left")
 B.vn=new A.w1(1,"right")
-B.BH=s([B.vm,B.vn],A.ah("y<w1>"))
+B.BI=s([B.vm,B.vn],A.ah("y<w1>"))
 B.ar=new A.w5(0,"upstream")
 B.p=new A.w5(1,"downstream")
-B.BJ=s([B.ar,B.p],A.ah("y<w5>"))
+B.BK=s([B.ar,B.p],A.ah("y<w5>"))
 B.az=new A.wa(0,"rtl")
 B.a2=new A.wa(1,"ltr")
 B.hx=s([B.az,B.a2],A.ah("y<wa>"))
 B.xP=new A.lr(0,"auto")
 B.xQ=new A.lr(1,"full")
 B.xR=new A.lr(2,"chromium")
-B.BQ=s([B.xP,B.xQ,B.xR,B.bu],A.ah("y<lr>"))
+B.BR=s([B.xP,B.xQ,B.xR,B.bu],A.ah("y<lr>"))
 B.cj=new A.ea(1,"fuchsia")
-B.BS=s([B.aH,B.cj,B.aq,B.bL,B.bM,B.bN],A.ah("y<ea>"))
+B.BT=s([B.aH,B.cj,B.aq,B.bL,B.bM,B.bN],A.ah("y<ea>"))
 B.vQ=new A.pG(0,"topLeft")
 B.vT=new A.pG(3,"bottomRight")
 B.OC=new A.jk(B.vQ,B.vT)
@@ -68762,12 +68762,12 @@ B.vR=new A.pG(1,"topRight")
 B.vS=new A.pG(2,"bottomLeft")
 B.OD=new A.jk(B.vR,B.vS)
 B.OE=new A.jk(B.vS,B.vR)
-B.BT=s([B.OC,B.OF,B.OD,B.OE],A.ah("y<jk>"))
-B.BV=s(["click","scroll"],t.s)
+B.BU=s([B.OC,B.OF,B.OD,B.OE],A.ah("y<jk>"))
+B.BW=s(["click","scroll"],t.s)
 B.wE=new A.nx()
 B.i7=new A.FD(1,"page")
 B.i8=new A.ey(B.am,B.i7)
-B.BW=s([B.wE,B.i8],A.ah("y<aG>"))
+B.BX=s([B.wE,B.i8],A.ah("y<aG>"))
 B.zN=new A.cL(57477,"MaterialIcons",!1)
 B.Nu=new A.kO("Android Studio",B.zN,null)
 B.Ns=new A.kO("VS Code",B.ko,null)
@@ -68776,24 +68776,39 @@ B.Nr=new A.kO("Eclipse",B.zS,null)
 B.kq=new A.cL(58889,"MaterialIcons",!1)
 B.Nt=new A.kO("MySQL",B.kq,null)
 B.Nv=new A.kO("PostgreSQL",B.kq,null)
-B.BY=s([B.Nu,B.Ns,B.Nr,B.Nt,B.Nv],t.E)
-B.C4=s([],t.QP)
+B.BZ=s([B.Nu,B.Ns,B.Nr,B.Nt,B.Nv],t.E)
+B.C5=s([],t.QP)
 B.kJ=s([],A.ah("y<ay6>"))
-B.C6=s([],t.ER)
-B.C7=s([],t.tc)
+B.C7=s([],t.ER)
+B.C8=s([],t.tc)
 B.ej=s([],t.G)
-B.C9=s([],t.wi)
-B.C8=s([],A.ah("y<ah7<@>>"))
+B.Ca=s([],t.wi)
+B.C9=s([],A.ah("y<ah7<@>>"))
 B.hz=s([],t.AO)
-B.C3=s([],t.D1)
+B.C4=s([],t.D1)
 B.hy=s([],t.e)
 B.kH=s([],t.s)
 B.ab=s([],t.oU)
-B.C5=s([],t.Lx)
+B.C6=s([],t.Lx)
 B.PK=s([],t.E)
-B.C0=s([],t.t)
+B.C1=s([],t.t)
 B.kI=s([],t.ee)
-B.C1=s([],t.XS)
+B.C2=s([],t.XS)
+B.By=s(["assets/images/ay1.png","assets/images/ay2.png","assets/images/ay3.png","assets/images/ay4.png","assets/images/ay5.png","assets/images/ay6.png","assets/images/ay7.png"],t.s)
+B.Gk=new A.hU("Ayuta Pay","Ayuta Pay is a digital Committee (Kameti) app that lets groups pool money and take turns receiving the total pot. It automates contributions, tracks payouts, and offers interest-free funding through community trust\u2014eliminating the need for banks or manual record-keeping.",B.By,"https://play.google.com/store/apps/details?id=com.ayuta_pay",null,null)
+B.CB=s(["assets/images/t1.jpg","assets/images/t2.jpg","assets/images/t3.jpg","assets/images/t4.jpg","assets/images/t5.jpg","assets/images/t6.jpg","assets/images/t7.jpg","assets/images/t8.jpg"],t.s)
+B.Gh=new A.hU("Teemoh","Teemoh is a user-friendly app that connects travelers and parcel senders. Users can sign up and log in securely, create trips and parcels, book parcels onto trips, and track parcel delivery locations in real time. The app also includes in-app chat for easy communication between users, making parcel delivery and trip coordination simple and efficient.",B.CB,"https://play.google.com/store/apps/details?id=com.teemoh.apk",null,null)
+B.C_=s(["assets/images/a1.png","assets/images/a2.png","assets/images/a3.png","assets/images/a4.png","assets/images/a5.png","assets/images/a6.png","assets/images/a7.png","assets/images/a8.png"],t.s)
+B.Gg=new A.hU("Ask Me App","A social media platform inspired by Instagram with posts, likes, comments, user profiles, real-time chat, user-generated questions with progress tracking and rewards, and an interactive onboarding tutorial for first-time users.",B.C_,"https://play.google.com/store/apps/details?id=com.askmeapp&hl=en_IN","https://apps.apple.com/in/app/askme-get-honest-answers/id6737979918",null)
+B.CD=s(["assets/images/o1.jpeg","assets/images/o2.jpeg","assets/images/o3.jpeg","assets/images/o4.jpeg","assets/images/o5.jpeg","assets/images/o6.jpeg"],t.s)
+B.Gj=new A.hU("Our review","A dual-role platform for Customers and Businesses featuring live location tracking, real-time communication, and media playback. Built with a modular and scalable architecture, the application supports role-based workflows, efficient state management, and smooth integration of mapping and real-time services.",B.CD,"https://play.google.com/store/apps/details?id=com.ourreview.app&hl=en_IN","https://apps.apple.com/gb/app/our-review/id6467117810",null)
+B.Bw=s(["assets/images/n1.jpeg","assets/images/n2.jpeg","assets/images/n3.jpeg","assets/images/n4.jpeg","assets/images/n5.jpeg","assets/images/n6.jpeg"],t.s)
+B.Ge=new A.hU("North Shore Nanny","A nanny booking application with real-time location tracking, booking management, in-app messaging, and Google Maps integration.",B.Bw,"https://play.google.com/store/apps/details?id=com.northshorenanny.northshorenanny","https://apps.apple.com/gb/app/the-northshore-nanny/id6499265992",null)
+B.BP=s(["assets/images/c1.png","assets/images/c2.png","assets/images/c3.png","assets/images/c4.png","assets/images/c5.png"],t.s)
+B.Gf=new A.hU("Capture 360","An innovative NFC-integrated platform for digital identity and asset management, featuring secure data exchange, real-time profile updates, and hardware-to-cloud synchronization.",B.BP,"https://play.google.com/store/apps/details?id=com.cap.capture&hl=en_IN","https://apps.apple.com/us/app/capture360/id6498624454",null)
+B.CC=s(["assets/images/h1.png","assets/images/h2.png","assets/images/h3.png","assets/images/h4.png","assets/images/h5.png"],t.s)
+B.Gi=new A.hU("Hookup & NSA Dating - Hook","A high-performance social discovery and dating app featuring custom 60FPS swipe animations, real-time WebSocket messaging, and proximity-based matching with Google Maps.",B.CC,"https://play.google.com/store/apps/details?id=app.hook.dating&hl=en",null,null)
+B.Cb=s([B.Gk,B.Gh,B.Gg,B.Gj,B.Ge,B.Gf,B.Gi],t.E)
 B.hs=new A.fl(0)
 B.zD=new A.fl(1)
 B.zE=new A.fl(2)
@@ -68803,26 +68818,11 @@ B.zF=new A.fl(5)
 B.zG=new A.fl(7)
 B.kk=new A.fl(8)
 B.kK=s([B.hs,B.zD,B.zE,B.o,B.I,B.zF,B.bw,B.zG,B.kk],A.ah("y<fl>"))
-B.CA=s(["assets/images/t1.jpg","assets/images/t2.jpg","assets/images/t3.jpg","assets/images/t4.jpg","assets/images/t5.jpg","assets/images/t6.jpg","assets/images/t7.jpg","assets/images/t8.jpg"],t.s)
-B.Gh=new A.hU("Teemoh","Teemoh is a user-friendly app that connects travelers and parcel senders. Users can sign up and log in securely, create trips and parcels, book parcels onto trips, and track parcel delivery locations in real time. The app also includes in-app chat for easy communication between users, making parcel delivery and trip coordination simple and efficient.",B.CA,"https://play.google.com/store/apps/details?id=com.teemoh.apk",null,null)
-B.CB=s(["assets/images/ay1.jpg","assets/images/ay2.jpg","assets/images/ay3.jpg","assets/images/ay4.jpg","assets/images/ay5.jpg","assets/images/ay6.jpg","assets/images/ay7.jpg"],t.s)
-B.Gk=new A.hU("Ayuta Pay","Ayuta Pay is a digital Committee (Kameti) app that lets groups pool money and take turns receiving the total pot. It automates contributions, tracks payouts, and offers interest-free funding through community trust\u2014eliminating the need for banks or manual record-keeping.",B.CB,"https://play.google.com/store/apps/details?id=com.ayuta_pay",null,null)
-B.BZ=s(["assets/images/a1.png","assets/images/a2.png","assets/images/a3.png","assets/images/a4.png","assets/images/a5.png","assets/images/a6.png","assets/images/a7.png","assets/images/a8.png"],t.s)
-B.Gg=new A.hU("Ask Me App","A social media platform inspired by Instagram with posts, likes, comments, user profiles, real-time chat, user-generated questions with progress tracking and rewards, and an interactive onboarding tutorial for first-time users.",B.BZ,"https://play.google.com/store/apps/details?id=com.askmeapp&hl=en_IN","https://apps.apple.com/in/app/askme-get-honest-answers/id6737979918",null)
-B.CD=s(["assets/images/o1.jpeg","assets/images/o2.jpeg","assets/images/o3.jpeg","assets/images/o4.jpeg","assets/images/o5.jpeg","assets/images/o6.jpeg"],t.s)
-B.Gj=new A.hU("Our review","A dual-role platform for Customers and Businesses featuring live location tracking, real-time communication, and media playback. Built with a modular and scalable architecture, the application supports role-based workflows, efficient state management, and smooth integration of mapping and real-time services.",B.CD,"https://play.google.com/store/apps/details?id=com.ourreview.app&hl=en_IN","https://apps.apple.com/gb/app/our-review/id6467117810",null)
-B.Bw=s(["assets/images/n1.jpeg","assets/images/n2.jpeg","assets/images/n3.jpeg","assets/images/n4.jpeg","assets/images/n5.jpeg","assets/images/n6.jpeg"],t.s)
-B.Ge=new A.hU("North Shore Nanny","A nanny booking application with real-time location tracking, booking management, in-app messaging, and Google Maps integration.",B.Bw,"https://play.google.com/store/apps/details?id=com.northshorenanny.northshorenanny","https://apps.apple.com/gb/app/the-northshore-nanny/id6499265992",null)
-B.BO=s(["assets/images/c1.png","assets/images/c2.png","assets/images/c3.png","assets/images/c4.png","assets/images/c5.png"],t.s)
-B.Gf=new A.hU("Capture 360","An innovative NFC-integrated platform for digital identity and asset management, featuring secure data exchange, real-time profile updates, and hardware-to-cloud synchronization.",B.BO,"https://play.google.com/store/apps/details?id=com.cap.capture&hl=en_IN","https://apps.apple.com/us/app/capture360/id6498624454",null)
-B.CC=s(["assets/images/h1.png","assets/images/h2.png","assets/images/h3.png","assets/images/h4.png","assets/images/h5.png"],t.s)
-B.Gi=new A.hU("Hookup & NSA Dating - Hook","A high-performance social discovery and dating app featuring custom 60FPS swipe animations, real-time WebSocket messaging, and proximity-based matching with Google Maps.",B.CC,"https://play.google.com/store/apps/details?id=app.hook.dating&hl=en",null,null)
-B.Cb=s([B.Gh,B.Gk,B.Gg,B.Gj,B.Ge,B.Gf,B.Gi],t.E)
-B.Cl=s(["\ud83e\udd8b Flutter","\ud83c\udfaf Dart","\ud83d\udcf1 Mobile App Development","\ud83d\udcbb Web Application Development","\ud83d\udd17 REST APIs","\u26a1 WebSockets","\u23f1\ufe0f Real-Time Systems","\ud83d\udd25 Firebase (Auth, Firestore, Cloud Functions)","\u2615 Java","\ud83c\udf31 Spring MVC","\ud83d\udc18 PostgreSQL","\ud83d\uddc4\ufe0f MySQL","\ud83d\uddfa\ufe0f Google Maps Integration","\ud83d\udcb3 Stripe Payment Integration","\ud83e\udde0 State Management","\ud83c\udfd7\ufe0f Clean Architecture","\ud83e\udde9 MVC / MVVM","\ud83d\udd00 Git & Version Control","\ud83e\udd16 Android Studio","\ud83d\udcdd VS Code","\ud83d\udd01 Agile / Scrum"],t.s)
+B.Cm=s(["\ud83e\udd8b Flutter","\ud83c\udfaf Dart","\ud83d\udcf1 Mobile App Development","\ud83d\udcbb Web Application Development","\ud83d\udd17 REST APIs","\u26a1 WebSockets","\u23f1\ufe0f Real-Time Systems","\ud83d\udd25 Firebase (Auth, Firestore, Cloud Functions)","\u2615 Java","\ud83c\udf31 Spring MVC","\ud83d\udc18 PostgreSQL","\ud83d\uddc4\ufe0f MySQL","\ud83d\uddfa\ufe0f Google Maps Integration","\ud83d\udcb3 Stripe Payment Integration","\ud83e\udde0 State Management","\ud83c\udfd7\ufe0f Clean Architecture","\ud83e\udde9 MVC / MVVM","\ud83d\udd00 Git & Version Control","\ud83e\udd16 Android Studio","\ud83d\udcdd VS Code","\ud83d\udd01 Agile / Scrum"],t.s)
 B.cW=s([B.bo,B.b9,B.dB,B.dC,B.fp],t.QP)
 B.zu=new A.td("Senior Flutter Developer","Paras Technologies","Jan 2024 \u2013 Nov 2025","Spearheaded the Flutter development of high-profile applications such as Ask Me App and North Shore Nanny, integrating real-time chat, GPS tracking, interactive maps, Firebase backend services, and RESTful APIs to deliver seamless user experiences.",null)
 B.zv=new A.td("Flutter Developer","AppScrip","Nov 2022 \u2013 Nov 2023","Designed and implemented scalable social, dating, and service-oriented mobile applications, ensuring maintainable code architecture, optimal performance, and smooth user interactions.",null)
-B.Cp=s([B.zu,B.zv],t.E)
+B.Cq=s([B.zu,B.zv],t.E)
 B.c5=new A.f2(0,"controlModifier")
 B.c6=new A.f2(1,"shiftModifier")
 B.c7=new A.f2(2,"altModifier")
@@ -68836,7 +68836,7 @@ B.kL=s([B.c5,B.c6,B.c7,B.c8,B.hS,B.hT,B.hU,B.hV,B.pP],A.ah("y<f2>"))
 B.hA=s([!0,!1],t.HZ)
 B.wj=new A.qP(null)
 B.Ga=new A.Eg(null)
-B.Cv=s([B.wj,B.Ga],t.E)
+B.Cw=s([B.wj,B.Ga],t.E)
 B.In=new A.eB(null,24,null,null)
 B.zL=new A.CH(null)
 B.IB=new A.GA(null)
@@ -68846,8 +68846,8 @@ B.Gl=new A.Es(null)
 B.Nw=new A.GV(null)
 B.yM=new A.ry(null)
 B.Io=new A.eB(null,48,null,null)
-B.Cw=s([B.In,B.zL,B.IB,B.Ip,B.zw,B.Gl,B.Nw,B.yM,B.Io],t.E)
-B.Cy=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.Cx=s([B.In,B.zL,B.IB,B.Ip,B.zw,B.Gl,B.Nw,B.yM,B.Io],t.E)
+B.Cz=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.k=new A.u5(0,"ignored")
 B.ac=new A.e(4294967304)
 B.cY=new A.e(4294967323)
@@ -69380,57 +69380,57 @@ B.Bd=s([54,null,null,8589935158],t.Z)
 B.Be=s([55,null,null,8589935159],t.Z)
 B.Bf=s([56,null,null,8589935160],t.Z)
 B.Bh=s([57,null,null,8589935161],t.Z)
-B.BK=s([8589934852,8589934852,8589934853,null],t.Z)
+B.BL=s([8589934852,8589934852,8589934853,null],t.Z)
 B.AQ=s([4294967555,null,4294967555,null],t.Z)
 B.AR=s([4294968065,null,null,8589935154],t.Z)
 B.AS=s([4294968066,null,null,8589935156],t.Z)
 B.AT=s([4294968067,null,null,8589935158],t.Z)
 B.AU=s([4294968068,null,null,8589935160],t.Z)
 B.AZ=s([4294968321,null,null,8589935157],t.Z)
-B.BL=s([8589934848,8589934848,8589934849,null],t.Z)
+B.BM=s([8589934848,8589934848,8589934849,null],t.Z)
 B.AP=s([4294967423,null,null,8589935150],t.Z)
 B.AV=s([4294968069,null,null,8589935153],t.Z)
 B.AO=s([4294967309,null,null,8589935117],t.Z)
 B.AW=s([4294968070,null,null,8589935159],t.Z)
 B.B_=s([4294968327,null,null,8589935152],t.Z)
-B.BM=s([8589934854,8589934854,8589934855,null],t.Z)
+B.BN=s([8589934854,8589934854,8589934855,null],t.Z)
 B.AX=s([4294968071,null,null,8589935155],t.Z)
 B.AY=s([4294968072,null,null,8589935161],t.Z)
-B.BN=s([8589934850,8589934850,8589934851,null],t.Z)
-B.pL=new A.cD(["*",B.B0,"+",B.B1,"-",B.B2,".",B.B3,"/",B.B4,"0",B.B5,"1",B.B6,"2",B.B8,"3",B.Ba,"4",B.Bb,"5",B.Bc,"6",B.Bd,"7",B.Be,"8",B.Bf,"9",B.Bh,"Alt",B.BK,"AltGraph",B.AQ,"ArrowDown",B.AR,"ArrowLeft",B.AS,"ArrowRight",B.AT,"ArrowUp",B.AU,"Clear",B.AZ,"Control",B.BL,"Delete",B.AP,"End",B.AV,"Enter",B.AO,"Home",B.AW,"Insert",B.B_,"Meta",B.BM,"PageDown",B.AX,"PageUp",B.AY,"Shift",B.BN],A.ah("cD<t,E<r?>>"))
+B.BO=s([8589934850,8589934850,8589934851,null],t.Z)
+B.pL=new A.cD(["*",B.B0,"+",B.B1,"-",B.B2,".",B.B3,"/",B.B4,"0",B.B5,"1",B.B6,"2",B.B8,"3",B.Ba,"4",B.Bb,"5",B.Bc,"6",B.Bd,"7",B.Be,"8",B.Bf,"9",B.Bh,"Alt",B.BL,"AltGraph",B.AQ,"ArrowDown",B.AR,"ArrowLeft",B.AS,"ArrowRight",B.AT,"ArrowUp",B.AU,"Clear",B.AZ,"Control",B.BM,"Delete",B.AP,"End",B.AV,"Enter",B.AO,"Home",B.AW,"Insert",B.B_,"Meta",B.BN,"PageDown",B.AX,"PageUp",B.AY,"Shift",B.BO],A.ah("cD<t,E<r?>>"))
 B.Bg=s([B.kS,null,null,B.py],t.L)
-B.Ca=s([B.pk,null,null,B.pz],t.L)
+B.Cc=s([B.pk,null,null,B.pz],t.L)
 B.Bx=s([B.pl,null,null,B.pA],t.L)
-B.BP=s([B.pm,null,null,B.bB],t.L)
+B.BQ=s([B.pm,null,null,B.bB],t.L)
 B.AJ=s([B.pn,null,null,B.pB],t.L)
-B.Cq=s([B.po,null,null,B.hL],t.L)
-B.Ck=s([B.pp,null,null,B.d4],t.L)
+B.Cr=s([B.po,null,null,B.hL],t.L)
+B.Cl=s([B.pp,null,null,B.d4],t.L)
 B.Bm=s([B.pq,null,null,B.bC],t.L)
-B.Cu=s([B.pr,null,null,B.d5],t.L)
-B.Cj=s([B.ps,null,null,B.bD],t.L)
+B.Cv=s([B.pr,null,null,B.d5],t.L)
+B.Ck=s([B.ps,null,null,B.bD],t.L)
 B.Bk=s([B.pt,null,null,B.hM],t.L)
 B.AN=s([B.pu,null,null,B.bE],t.L)
 B.Bt=s([B.pv,null,null,B.d6],t.L)
-B.Cc=s([B.pw,null,null,B.bF],t.L)
-B.Cf=s([B.px,null,null,B.d7],t.L)
+B.Cd=s([B.pw,null,null,B.bF],t.L)
+B.Cg=s([B.px,null,null,B.d7],t.L)
 B.Bn=s([B.d2,B.d2,B.eq,null],t.L)
-B.Cr=s([B.em,null,B.em,null],t.L)
-B.By=s([B.aL,null,null,B.bC],t.L)
-B.Bz=s([B.aD,null,null,B.bD],t.L)
-B.BA=s([B.aE,null,null,B.bE],t.L)
-B.Ct=s([B.aM,null,null,B.bF],t.L)
-B.Cg=s([B.hE,null,null,B.hM],t.L)
+B.Cs=s([B.em,null,B.em,null],t.L)
+B.Bz=s([B.aL,null,null,B.bC],t.L)
+B.BA=s([B.aD,null,null,B.bD],t.L)
+B.BB=s([B.aE,null,null,B.bE],t.L)
+B.Cu=s([B.aM,null,null,B.bF],t.L)
+B.Ch=s([B.hE,null,null,B.hM],t.L)
 B.Bo=s([B.d1,B.d1,B.ep,null],t.L)
-B.BU=s([B.a6,null,null,B.bB],t.L)
-B.BB=s([B.by,null,null,B.d4],t.L)
+B.BV=s([B.a6,null,null,B.bB],t.L)
+B.BC=s([B.by,null,null,B.d4],t.L)
 B.Bj=s([B.el,null,null,B.hK],t.L)
-B.BC=s([B.bz,null,null,B.d6],t.L)
-B.Ch=s([B.hF,null,null,B.hL],t.L)
+B.BD=s([B.bz,null,null,B.d6],t.L)
+B.Ci=s([B.hF,null,null,B.hL],t.L)
 B.Bp=s([B.d3,B.d3,B.er,null],t.L)
-B.BD=s([B.d_,null,null,B.d5],t.L)
-B.C_=s([B.d0,null,null,B.d7],t.L)
+B.BE=s([B.d_,null,null,B.d5],t.L)
+B.C0=s([B.d0,null,null,B.d7],t.L)
 B.Bq=s([B.bA,B.bA,B.c3,null],t.L)
-B.Ek=new A.cD(["*",B.Bg,"+",B.Ca,"-",B.Bx,".",B.BP,"/",B.AJ,"0",B.Cq,"1",B.Ck,"2",B.Bm,"3",B.Cu,"4",B.Cj,"5",B.Bk,"6",B.AN,"7",B.Bt,"8",B.Cc,"9",B.Cf,"Alt",B.Bn,"AltGraph",B.Cr,"ArrowDown",B.By,"ArrowLeft",B.Bz,"ArrowRight",B.BA,"ArrowUp",B.Ct,"Clear",B.Cg,"Control",B.Bo,"Delete",B.BU,"End",B.BB,"Enter",B.Bj,"Home",B.BC,"Insert",B.Ch,"Meta",B.Bp,"PageDown",B.BD,"PageUp",B.C_,"Shift",B.Bq],A.ah("cD<t,E<e?>>"))
+B.Ek=new A.cD(["*",B.Bg,"+",B.Cc,"-",B.Bx,".",B.BQ,"/",B.AJ,"0",B.Cr,"1",B.Cl,"2",B.Bm,"3",B.Cv,"4",B.Ck,"5",B.Bk,"6",B.AN,"7",B.Bt,"8",B.Cd,"9",B.Cg,"Alt",B.Bn,"AltGraph",B.Cs,"ArrowDown",B.Bz,"ArrowLeft",B.BA,"ArrowRight",B.BB,"ArrowUp",B.Cu,"Clear",B.Ch,"Control",B.Bo,"Delete",B.BV,"End",B.BC,"Enter",B.Bj,"Home",B.BD,"Insert",B.Ci,"Meta",B.Bp,"PageDown",B.BE,"PageUp",B.C0,"Shift",B.Bq],A.ah("cD<t,E<e?>>"))
 B.EQ={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.hQ=new A.bB(B.EQ,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.EM={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -70740,7 +70740,7 @@ r($,"auY","amw",()=>A.aut())
 r($,"aBN","amT",()=>A.cp().gKh()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"aBe","amu",()=>A.auh(A.qo(A.qo(A.im(),"window"),"FinalizationRegistry"),A.ig(new A.aaw())))
 r($,"aCp","ang",()=>new A.YT())
-s($,"aBk","amy",()=>A.aqx(B.BE))
+s($,"aBk","amy",()=>A.aqx(B.BF))
 s($,"aBj","abN",()=>A.VD(A.ao4($.amy())))
 s($,"ayq","cr",()=>{var q,p=A.x(A.x(A.im(),"window"),"screen")
 p=p==null?null:A.x(p,"width")
